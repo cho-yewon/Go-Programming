@@ -1,0 +1,1 @@
+This repository manages codes and tasks used in Go programming classes in 2023.
