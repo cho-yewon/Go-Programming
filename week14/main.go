@@ -13,8 +13,16 @@ func main() {
 	games[199] = "알리"
 	games[101] = "아이오아이"
 
-	// fmt.Println(games[067])
+	//fmt.Println(games[067])
 	for _, v := range games {
 		fmt.Println(v)
+	}
+	//update
+	games[101] = "장덕수"
+
+	//delete
+	delete(games, 199)
+	for k, v := range games {
+		fmt.Println(k, v)
 	}
 }
